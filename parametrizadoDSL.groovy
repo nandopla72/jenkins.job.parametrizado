@@ -18,6 +18,6 @@ job('ejemplo2-job-DSL') {
     		shell("bash jobscript.sh")
     	}
   	publishers {
-      		mailer('macloujulian@gmail.com', true, true)
+      		mailer('nandopla@yahoo.es', true, true)
     	}
 }
